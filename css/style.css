@@ -80,4 +80,52 @@ main .btn-choice {
   height: 50px;
   width: 100%;
   background-color: red;
+}
+main .over {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: yellow;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .over p {
+  font-size: 2em;
+  margin: 20px 0;
+}
+main .over em {
+  font-size: 2em;
+  color: red;
+}
+main .over button {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+}
+main .words {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+}
+main .words .output p button:hover {
+  text-decoration: underline;
+}
+main .words .btn-cancle {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
